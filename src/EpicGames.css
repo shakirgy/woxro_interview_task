@@ -1,0 +1,298 @@
+* {
+  margin: 0%;
+}
+body {
+  background-color: #000000;
+  box-sizing: border-box;
+}
+/* fortinite css */
+.fortnite {
+  padding: 0% 10%;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.f-span {
+  margin-top: 3rem;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  padding: 10px;
+  align-items: center;
+}
+.f-para {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 20px;
+  padding: 0% 7.5%;
+  opacity: 50%;
+}
+
+.view-button {
+  background-color: #fff;
+  color: #000000;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.fortnite-logo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/* card css */
+
+.card-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0% 5%;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  gap: 2rem;
+}
+.card-img-div {
+  flex: calc(90% / 3);
+}
+.card-img {
+  max-width: 280px;
+  max-height: 280px;
+}
+.card-p {
+  text-align: left;
+  padding: 0% 7%;
+  font-weight: 300;
+  line-height: 22.27px;
+  text-align: center;
+}
+
+/* contribution css */
+.contri-head {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+}
+.contri-para {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 26px;
+  margin-top: 20px;
+  text-align: center;
+  opacity: 50%;
+}
+.contri-chart-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+.head-para-contri {
+  flex: calc(100% / 3);
+  vertical-align: top;
+}
+.contri-chart-span-head {
+  color: #fff;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 18px;
+}
+.bottom-div {
+  padding: 0% 7.5%;
+  margin-top: 4rem;
+}
+.bottom-head {
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 48px;
+  letter-spacing: 0.98px;
+}
+.bottom-para {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 20px;
+  padding: 0% 10%;
+}
+.contact {
+  font-weight: 500;
+}
+.button-div {
+  display: flex;
+  flex-wrap: wrap;
+  flex: calc(100% / 2);
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+.button-last {
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#b0ttom-para {
+  opacity: 50%;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+.close-button {
+  position: relative;
+  transition: transform 0.3s ease;
+  color: #fff;
+  font-size: 26px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  border: none;
+  background-color: #000000;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: rotate(45deg);
+  }
+}
+
+@media (max-width: 320px) {
+  .fortnite {
+    padding: 0% 2%;
+  }
+
+  .f-span {
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .f-para {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    padding: 0% 2%;
+    opacity: 90%;
+  }
+
+  .view-button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 5px 10px;
+  }
+  .head-para-contri {
+    flex: calc(100% / 1);
+  }
+  .button-div {
+    flex: calc(100% / 1);
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .fortnite {
+    padding: 0% 3%;
+  }
+
+  .f-span {
+    margin-top: 1.5rem;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .f-para {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 0% 3%;
+    opacity: 80%;
+  }
+
+  .view-button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 6px 12px;
+  }
+  .head-para-contri {
+    flex: calc(100% / 1);
+  }
+  .button-div {
+    flex: calc(100% / 1);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .fortnite {
+    padding: 0% 4%;
+  }
+
+  .f-span {
+    margin-top: 2rem;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .f-para {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    padding: 0% 4%;
+    opacity: 70%;
+  }
+
+  .view-button {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 16px;
+  }
+  .head-para-contri {
+    flex: calc(100% / 1);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .fortnite {
+    padding: 0% 5%;
+  }
+
+  .f-span {
+    margin-top: 2rem;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .f-para {
+    font-size: 19px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    padding: 0% 7.5%;
+    opacity: 50%;
+  }
+
+  .view-button {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 20px;
+  }
+  .head-para-contri {
+    flex: calc(100% / 3);
+  }
+}
